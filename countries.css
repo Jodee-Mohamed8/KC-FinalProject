@@ -1,0 +1,131 @@
+body{
+    font-family: 'El Messiri', sans-serif;
+    margin: 0;
+    width:100%;
+    font-family: 'DynaPuff', cursive;
+}
+#navBar{
+    height: 70px;
+    display: flex;
+    background-color: #C9184A;
+    color: #F8D6B3;
+    font-family: 'DynaPuff', cursive;
+    
+}
+#navLeft{
+   display: flex;
+   align-items: center; 
+}
+#navImg{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#navRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navTitles{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #F8D6B3;
+}
+#navButton{
+    background-color: #F8D6B3;
+    color: #C9184A;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #FFF0F3;
+    margin-left: 50px;
+    font-family: 'DynaPuff', cursive;
+}
+#content{
+    background-color: #FFF0F3;
+    color: #CD9F6E;
+    margin: 0%;
+}
+#title{
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 20px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'El Messiri', sans-serif;
+    
+    
+}
+.box{
+    width: 95%;
+    height: 100px;
+    background-color: #FF758F;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 3px #C9184A solid;
+}
+.box:hover{
+    box-shadow: 5px 5px 8px #C9184A ;
+}
+.flags{
+    width: 80px;
+    height: 80px;
+    margin-left: 850px; 
+}
+.name{
+     color: #F8D6B3;
+    text-decoration: none; 
+    margin-left: -460px;
+}
+
+.con{
+    color: rgb(255, 212, 143);
+    margin-left: -500px;
+}
+.cur{
+    margin-left: -345px;
+    color: #ffc68e;
+}
+.notnow{
+    position: relative;
+    right: 170px;
+    color: #F8D6B3; 
+    margin-top: 70px;
+    font-size: 18px;
+}
+/* english */
+.FLAGS{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px; 
+}
+.NAME{
+    color: #F8D6B3;
+    text-decoration: none; 
+    margin-left: 50px;
+}
+.CON{
+    color: rgb(255, 212, 143);
+    margin-left: 200px;
+    text-align: center;
+}
+.CUR{
+    color: #ffc68e;
+    margin-left: 270px;
+}
+.NAME,.CON,.CUR,.NOTNOW{
+    font-family: 'DynaPuff', cursive;
+}
+.NOTNOW{
+    position: relative;
+    right: 70px;
+    color: #F8D6B3; 
+    margin-top: 70px;
+    font-size: 18px;
+}
